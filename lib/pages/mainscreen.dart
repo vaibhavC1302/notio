@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:notio/bottomnavigationbar.dart';
 import 'package:notio/widgets.dart';
 
 class mainscreen extends StatefulWidget {
@@ -14,6 +15,10 @@ class _mainscreenState extends State<mainscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: bnavigationbar(context),
+      floatingActionButton:
+          FloatingActionButton(child: Icon(Icons.add), onPressed: () {},col),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: SingleChildScrollView(
         padding: EdgeInsets.only(
             left: getwidth(context, 40), right: getwidth(context, 40)),

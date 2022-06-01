@@ -13,7 +13,9 @@ double getwidth(context, value) {
 
 Color blue_color = Color(0xff376AED);
 Color darkblue = Color(0xff0D253C);
+
 Color darkbluetext = Color(0xff2D4379);
+Color darkgrey = Color(0xff7B8BB2);
 
 TextStyle formtext = TextStyle(
     fontSize: 14, fontWeight: FontWeight.w400, color: Color(0xff2D4379));

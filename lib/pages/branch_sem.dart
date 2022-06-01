@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notio/bottomnavigationbar.dart';
 import 'package:notio/widgets.dart';
 
 class branch_sem extends StatefulWidget {
@@ -12,6 +13,7 @@ class _branch_semState extends State<branch_sem> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: bnavigationbar(context),
       body: Column(
         children: [
           Container(
